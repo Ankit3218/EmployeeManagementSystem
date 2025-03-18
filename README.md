@@ -40,9 +40,6 @@ String user = "root";
 String password = "your_password";
 
 4.
-Download MySQL Connector
-Download MySQL Connector JAR and place it in the project folder
-
 Compile & Run the Java Program
 javac -cp ".;mysql-connector-java-8.0.23.jar" EmployeeManagement.java
 java -cp ".;mysql-connector-java-8.0.23.jar" EmployeeManagement
