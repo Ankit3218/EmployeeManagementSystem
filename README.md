@@ -22,14 +22,14 @@ Open MySQL Command Line or MySQL Workbench.
 
 Run the following SQL script to create the database and table
 
-CREATE DATABASE employee_db;
-USE employee_db;
-CREATE TABLE employees (
+CREATE DATABASE EmployeeDB;
+USE EmployeeDB;
+CREATE TABLE Employees (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    age INT,
-    department VARCHAR(50),
-    salary DECIMAL(10,2)
+    name VARCHAR(100)NOT NULL,
+    age INT NOT NULL,
+    department VARCHAR(50) NOT NULL,
+    sallary DECIMAL(10,2) NOT NULL
 );
 
 3.
