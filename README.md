@@ -1,4 +1,4 @@
- # Employee Management System
+ # Employee Management System(Using JDBC)
 
 A simple Java-based Employee Management System using JDBC.
 
